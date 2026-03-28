@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cff49e54-e040-4b1b-bbb4-685a9261ce65}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{65e8e1a4-5bdf-4e0c-81aa-8160fa8eea8d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Dbg">
+      <UniqueIdentifier>{ee6caa42-1892-4953-a1bb-66ec311c9efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{b0f60934-db32-40fc-a36b-ffd84b01d7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{b4fbefa9-2b1a-415e-acdc-d664658f3ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{1369f80c-f42a-4bb4-b6dc-fec68f8fae0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{f7c03f7e-af93-4e15-a28b-0e8c9e5dee48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{2b7cfcd9-100b-4e05-ac94-d5d53a500258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetEngine">
+      <UniqueIdentifier>{b7aa7a93-5cac-4fa2-9dc7-ef4274975c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetEngine\PeerNet">
+      <UniqueIdentifier>{afeaf714-4fea-459a-a755-1306427eb7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UdpPing">
+      <UniqueIdentifier>{df568357-e5b5-4dde-89fa-5aef4dea6eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringFunc">
+      <UniqueIdentifier>{0923fb11-7846-4cfc-ab16-9f4658e44760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{2bbb0fec-c181-4811-b96b-1a23ddb2d0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compress">
+      <UniqueIdentifier>{c4f5e204-7d07-4a65-8920-3d34f0c0a607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Schedule">
+      <UniqueIdentifier>{e5ce9f30-4992-4da2-99a4-68446b676b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{d57e7825-7dfd-4cf7-a5e2-6fdaac85c8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetEngine\Pattern">
+      <UniqueIdentifier>{b5e86a67-ff7c-46b6-b536-a02d2530aa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{48acaff2-41eb-427c-89b7-ed64fca8a767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BSLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg\Debug.cpp">
+      <Filter>Dbg</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\bs_reg.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Buffer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChunkAllocatorCMsg.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FStream.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\SharedMemory.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TimeSpan.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\runtime.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\simplethread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\synchobject.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\task.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\threadcontrol.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\threadmanager.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\blowfish.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\DiffieHellman.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\KeyExchange.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\md5c.c">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\md5class.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="DB\adodb.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DB\Database.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\Accept.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\FileSystem.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\iocontext.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\KeyGenerator.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\maintainer.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\Msg.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\NetEngine.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\proactor.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\proactorevent.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\SessionMgr.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\sockettcp.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\socksystem.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\swsession.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\system.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\PeerNet.cpp">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\PeerProcess.cpp">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\socketudp.cpp">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpPing\UDPPing.cpp">
+      <Filter>UdpPing</Filter>
+    </ClCompile>
+    <ClCompile Include="FTP\SimpleFTP.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="DB\sql_param.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEngine\CGI.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Compress\minilzo.cpp">
+      <Filter>Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule\Schedule.cpp">
+      <Filter>Schedule</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule\ScheduleConfig.cpp">
+      <Filter>Schedule</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule\Scheduler.cpp">
+      <Filter>Schedule</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg\StackWalker.cpp">
+      <Filter>Dbg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg\APIHook.cpp">
+      <Filter>Dbg</Filter>
+    </ClCompile>
+    <ClCompile Include="DB\sql_query.cpp">
+      <Filter>NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\JsonValue.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BSLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg\Debug.h">
+      <Filter>Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Face.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathConst.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathLib.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathPrimitive.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quadric.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AlignedAlloc.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ATLaux.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\bs_reg.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Buffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChunkAllocator.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChunkAllocatorCMsg.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ClassLink.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\CPConv.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Facilities.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FStream.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\msg_map.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ObjMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Que.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SafeCount.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SharedMemory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TickCount64.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TimeSpan.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TODO.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern\Singleton.h">
+      <Filter>NetEngine\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\bsthread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\runtime.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\scopedlock.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\simplethread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\synchobject.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\task.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\taskmanager.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\threadcontrol.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\threadmanager.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\blowfish.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\blowfish_data.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\DiffieHellman.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\global.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\KeyExchange.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\MD5.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\md5class.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\adodb.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\Database.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\DB_Common.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\Accept.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\FileSystem.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\Interface.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\iocontext.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\KeyGenerator.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\maintainer.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\Msg.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\NetEngine.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\netengine_def.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\proactor.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\proactorevent.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\SessionMgr.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\sockettcp.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\socksystem.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\swsession.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\system.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\PeerNet.h">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\peernet_def.h">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\PeerNetSecurityCode.h">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\PeerProcess.h">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\socketudp.h">
+      <Filter>NetEngine\PeerNet</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpPing\UDPPing.h">
+      <Filter>UdpPing</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFunc\StringFunc.h">
+      <Filter>StringFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="FTP\SimpleFTP.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\sql_query.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DB\sql_param.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEngine\CGI.h">
+      <Filter>NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Compress\lzoconf.h">
+      <Filter>Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="Compress\lzodefs.h">
+      <Filter>Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="Compress\minilzo.h">
+      <Filter>Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SimpleMemPooler.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule\Schedule.h">
+      <Filter>Schedule</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule\ScheduleConfig.h">
+      <Filter>Schedule</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule\Scheduler.h">
+      <Filter>Schedule</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg\StackWalker.h">
+      <Filter>Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg\APIHook.h">
+      <Filter>Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg\CmnHdr.h">
+      <Filter>Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg\Toolhelp.h">
+      <Filter>Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP\atlrx.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP\RegExp.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP\StringProcess.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP\WinHttpClient.h">
+      <Filter>HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\JsonValue.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Face.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\MathPrimitive.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Matrix4x4.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Plane3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Quadric.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Quaternion.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector2.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector4.inl">
+      <Filter>Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>
